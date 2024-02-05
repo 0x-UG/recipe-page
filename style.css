@@ -60,6 +60,12 @@ section {
 	border-radius: 0.5em;
 }
 
+ul,
+ol {
+	border-bottom: 1px solid black;
+	padding-bottom: 1.5em;
+}
+
 table {
 	width: 96%;
 	margin-left: 4%;
