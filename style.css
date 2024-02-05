@@ -60,6 +60,10 @@ section {
 	border-radius: 0.5em;
 }
 
+section ul {
+	border-bottom: none;
+}
+
 ul,
 ol {
 	border-bottom: 1px solid black;
