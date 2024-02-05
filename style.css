@@ -3,3 +3,64 @@
 *::after {
 	box-sizing: border-box;
 }
+
+html {
+	font-family: "Outfit", sans-serif;
+	font-size: 1rem;
+	background-color: hsl(30, 54%, 90%);
+}
+
+h1,
+h2 {
+	font-family: "Young Serif", serif;
+	color: hsl(14, 45%, 36%);
+	margin-bottom: 0;
+}
+
+h1 {
+	color: hsl(24, 5%, 18%);
+}
+
+span,
+.red {
+	font-weight: bold;
+}
+
+li::marker {
+	color: hsl(14, 45%, 36%);
+}
+
+section li::marker {
+	color: hsl(332, 51%, 32%);
+}
+
+section h2,
+.red {
+	color: hsl(332, 51%, 32%);
+}
+
+img {
+	width: 100%;
+	border-radius: 0.5em;
+}
+
+main {
+	padding: 2em 20em;
+}
+
+.container {
+	border-radius: 0.5em;
+	padding: 2em;
+	background-color: white;
+}
+
+section {
+	background-color: hsl(332, 68%, 85%);
+	padding: 0.3em 2em;
+	border-radius: 0.5em;
+}
+
+table {
+	width: 96%;
+	margin-left: 4%;
+}
