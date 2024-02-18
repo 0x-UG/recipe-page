@@ -83,9 +83,11 @@ td {
 @media (max-width: 1200px) {
 	.container {
 		width: 100%;
+		height: 100%;
 	}
 
 	main {
 		padding: 0;
+		height: 100%;
 	}
 }
